@@ -13,7 +13,7 @@ public class TheDmvSimulator {
             System.out.println("Calling number " + i);
         }
         for (int i = 1; i < userNumber; i++) {
-        }
+        } 
 
         System.out.println("Calling number " + userNumber);
         System.out.println("You did not come prepared! GO BACK HOME AND WAIT 5 MORE HOURS!!! ");
