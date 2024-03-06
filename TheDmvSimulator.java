@@ -16,6 +16,7 @@ public class TheDmvSimulator {
         // } 
 
         System.out.println("Calling number " + userNumber);
+        System.out.println("You did not come prepared! GO BACK HOME AND WAIT 5 MORE HOURS!!!  AHHAHAHA HAHAHAHA ");
 
         if (Math.random() < 0.01){
             System.out.println("You have all of the required paperwork, you are good to go.");
