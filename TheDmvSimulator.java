@@ -12,10 +12,15 @@ public class TheDmvSimulator {
         for (int i = userNumber + 1; i <= 200; i++) {
             System.out.println("Calling number " + i);
         }
-        for (int i = 1; i < userNumber; i++) {
-        } 
+        // for (int i = 1; i < userNumber; i++) {
+        // } 
 
         System.out.println("Calling number " + userNumber);
+
+        if (Math.random() < 0.01){
+            System.out.println("You have all of the required paperwork, you are good to go.");
+        } else {
         System.out.println("You did not come prepared! GO BACK HOME AND WAIT 5 MORE HOURS!!! ");
+        }
     }
 }
